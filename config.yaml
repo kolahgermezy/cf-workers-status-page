@@ -19,17 +19,45 @@ monitors:
     name: Mastodon
     url: 'https://tokhmi.xyz' # URL to fetch
     method: GET # default=GET
-    linkable: false # allows the title to be a link, default=true
 
+  - id: matrix
+    name: Matrix
+    url: 'https://matrix.tokhmi.xyz'
+    method: GET
+    expectStatus: 200
+    
   - id: nitter
     name: Nitter
     url: 'https://nitter.tokhmi.xyz'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
 
   - id: bibliogram
     name: Bibliogram
     url: 'https://ig.tokhmi.xyz'
+    method: GET
+    expectStatus: 200
+
+  - id: libreddit
+    name: Libreddit
+    url: 'https://lr.tokhmi.xyz'
+    method: GET
+    expectStatus: 200
+
+  - id: mumble
+    name: Mumble
+    url: 'https://mumble.tokhmi.xyz'
+    method: GET
+    expectStatus: 200
+
+  - id: piped
+    name: Piped
+    url: 'https://piped.tokhmi.xyz'
+    method: GET
+    expectStatus: 200
+
+  - id: translate
+    name: Translate
+    url: 'https://translate.tokhmi.xyz'
     method: GET
     expectStatus: 200
