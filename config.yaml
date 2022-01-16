@@ -15,10 +15,11 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: mastodon # unique identifier
+  - id: mastodon
     name: Mastodon
-    url: 'https://tokhmi.xyz' # URL to fetch
-    method: GET # default=GET
+    url: 'https://tokhmi.xyz'
+    method: GET
+    expectStatus: 200
 
   - id: matrix
     name: Matrix
