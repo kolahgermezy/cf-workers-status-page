@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: mastodon
     name: Mastodon
-    url: 'https://tokhmi.xyz'
+    url: 'https://tokhmi.xyz/about'
     method: GET
     expectStatus: 200
 
